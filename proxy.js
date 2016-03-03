@@ -43,7 +43,7 @@ app.use(function (req, res) {
   proxy.web(req, res, { target: 'http:/' + url });
 });
 
-http.createServer(app).listen(8002);
+http.createServer(app).listen(80);
 
 
 
